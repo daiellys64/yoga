@@ -1,0 +1,91 @@
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h4,h5,h6{
+    font-size:medium;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.color{
+    background-color:#adeada;
+}
+
+
+.sucesso{
+    background-color: #adeada;
+}
+
+.um{
+  background-color: #bdeadb;
+}
+
+.dois{
+    background-color:#bdeadb;
+    position: relative;
+}
+
+.tres{
+    background-color: #bdeadb;
+}
+
+
+.contact{
+    width: 100%;
+    text-align: center;
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #cdeadc;
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #bdeadb; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:#adeada; 
+}
